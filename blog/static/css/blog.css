@@ -1,0 +1,39 @@
+body{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.artigo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    min-width: 400px;
+    max-width: 600px;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #eff3f5;
+    box-shadow: 5px 5px 10px  black;
+}
+
+h2{
+    font-weight: bold;
+}
+.date{
+    font-style: italic;
+    color: #303134;
+}
+
+article{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    width: 60%;
+    color: #15262e;
+}
