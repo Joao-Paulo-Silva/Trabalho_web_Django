@@ -733,6 +733,6 @@ tela que mostra um post, no qual seu link é automático através do slug:
 
 
 
-![](img/telaListPostBlog.png)
+![](img/telaPostBlog.png)
 
 ---
