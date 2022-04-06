@@ -619,11 +619,11 @@ Agora vamos mudar o arquivo ``post_list.html`` e adicionar um link para os posts
 
 Com isso só iniciar o server e colocar /blog no link ficando: ``http://127.0.0.1:8000/blog`` e ao clicar aparecera está tela com os posts adicionados, para adicionar entre na tela de admin e adicione os posts:
 
-![](img/telaListaPost.png)
+![](img/telaListPostBlog.png)
 
 e ao clicar no título é redirecionado ao post:
 
-![](img/telaPost.png)
+![](img/telaPostBlog.png)
 
 —
 
