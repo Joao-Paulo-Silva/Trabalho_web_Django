@@ -50,7 +50,9 @@ Após o comando dentro da pasta haverá criado uma nova pasta chamada **venv**.
     📦Projeto-Django
      ┗ 📁venv
 ```
+    
 Ativando a máquina virtual:
+    
 ```powershell
     .\venv\bin\activate
 ```
@@ -271,7 +273,9 @@ Após ter adicionado essa classe vá na pasta **meuBlog/meuBlog** e selecione o 
      ┗📁 meuBlog
           ┗ 📜 settings.py
 ```
+    
 Na linha 33 em **INSTALLED_APPS** adicione o blog: ‘blog.apps.BlogConfig’:
+    
 ```python
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -425,7 +429,7 @@ def __str__(self):
         return self.title
 ```
 
-—-
+---
 
 ## **Passo 12:** Criando as Views.
 
@@ -736,3 +740,10 @@ tela que mostra um post, no qual seu link é automático através do slug:
 ![](img/telaPostBlog.png)
 
 ---
+    
+![Link para acessar o site!](https://jpsilva.pythonanywhere.com/)
+    
+---
+    
+Este projeto foi retirado do vídeo do youtuber Fabio Ruicci, 
+acessado em ``05 de abril de 2022`` no Youtube ![Clique para acessar](https://www.youtube.com/watch?v=Dzuiy-JNi-E).
