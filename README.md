@@ -127,7 +127,7 @@ Exemplo
 ```
 Tela que aparecerá ao iniciar o Visual Studio code:
 
-![](img\vsInicio.png)
+![](img/vsInicio.png)
 
 ---
 
@@ -136,7 +136,7 @@ Tela que aparecerá ao iniciar o Visual Studio code:
 Aperte a tecla F1 do teclado e procure “Selecionar Interpretador” e clique nele.
 
 
-![](img\selecionaInterpret.png)
+![](img/selecionaInterpret.png)
 
 
 Selecione o python da pasta venv do projeto e ative ele como interpretador.
@@ -158,7 +158,7 @@ No terminal verifique se está na pasta meuBlog, se sim digite o comando para ex
 No terminal aparecerá o ip no qual está sendo executado exemplo: http://127.0.0.1:8000/
 Ao clicar nesta tela será direcionado para a página inicial de um projeto django.
 
-![](img\telaInicialDjango.png)
+![](img/telaInicialDjango.png)
 
 
 Na saída do terminal apareceu que:
@@ -386,11 +386,11 @@ Superuser created successfully.
 Para testar esse usuário inicie o server usando o comando ``python manage.py runserver`` e acesse o endereço localhost/admin exemplo: http://127.0.0.1:8000/admin
 
 
-![](img\loginAdmin.png)
+![](img/loginAdmin.png)
 
 Após logar verá a tela do administrador:
 
-![](img\Admin1.png)
+![](img/Admin1.png)
 
 Para mudar o idioma da página, na linha 107 do ``settings.py`` mude o ``'en-us'`` para ``'pt-br'``, as páginas ficaram em portugues do brasil.
 
@@ -416,11 +416,11 @@ class PostAdmin(admin.ModelAdmin):
 ```
 Dando F5 na página admin estará com uma nova opção para adicionar Posts:
 
-![](img\adminPost.png)
+![](img/adminPost.png)
 
 Podendo adicionado novos posts com os campos definidos no **Passo 8**:
 
-![](img\adminAddPost.png)
+![](img/adminAddPost.png)
 
 Adicione um método a ``class Post`` para definir o nome dos post adicionados igual ao título dos mesmos:
 
@@ -741,9 +741,9 @@ tela que mostra um post, no qual seu link é automático através do slug:
 
 ---
     
-![Link para acessar o site!](https://jpsilva.pythonanywhere.com/)
+[Link para acessar o site!](https://jpsilva.pythonanywhere.com/)
     
 ---
     
 Este projeto foi retirado do vídeo do youtuber Fabio Ruicci, 
-acessado em ``05 de abril de 2022`` no Youtube ![Clique para acessar](https://www.youtube.com/watch?v=Dzuiy-JNi-E).
+acessado em ``05 de abril de 2022`` no Youtube [Clique para acessar](https://www.youtube.com/watch?v=Dzuiy-JNi-E).
